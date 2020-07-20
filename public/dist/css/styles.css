@@ -10885,6 +10885,11 @@ header.masthead .masthead-heading {
     margin-bottom: 3rem;
     text-align: center;
 }
+
+.team-member:hover{
+    opacity: 0.5;
+}
+
 .team-member img {
     width: 14rem;
     height: 14rem;
