@@ -45,8 +45,12 @@
     var navbarCollapse = function () {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            document.getElementById("logo").src = logo.src.replace("inovatus.png", "inovatustext.png");
+
         } else {
             $("#mainNav").removeClass("navbar-shrink");
+            document.getElementById("logo").src = logo.src.replace("inovatustext.png", "inovatus.png");
+
         }
     };
     // Collapse now if page is not at top
