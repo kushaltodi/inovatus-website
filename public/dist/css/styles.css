@@ -11026,3 +11026,16 @@ section#contact form#contactForm :-ms-input-placeholder {
     color: #fff;
     text-decoration: none;
 }
+
+
+@media only screen and (max-width: 900px) {
+  .col {
+    display: block;
+  }
+  .team-member {
+    display: block;
+  }
+  .row {
+    display: block;
+  }
+}
