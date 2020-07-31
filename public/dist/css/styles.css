@@ -3225,9 +3225,11 @@ fieldset:disabled a.btn {
 }
 
 input[type="submit"].btn-block,
-input[type="reset"].btn-block,
-input[type="button"].btn-block {
+input[type="reset"].btn-block,{
     width: 100%;
+}
+input[type="button"].btn-block {
+    width: 70%;
 }
 
 .fade {
@@ -4319,11 +4321,11 @@ input[type="button"].btn-block {
     justify-content: space-between;
 }
 .navbar-brand {
+    width: 50%;
     display: inline-block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
 }
@@ -11027,7 +11029,6 @@ section#contact form#contactForm :-ms-input-placeholder {
     text-decoration: none;
 }
 
-
 @media only screen and (max-width: 900px) {
   .col {
     display: block;
@@ -11039,3 +11040,17 @@ section#contact form#contactForm :-ms-input-placeholder {
     display: block;
   }
 }
+
+#logo{
+    height: 40%; width: 20%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #000000   );
+}
+    
+@media only screen and (max-width: 900px) {
+    #logo {
+        display: inline-block;
+        height: 60%; 
+        width: 40%
+    }
+}"
